@@ -50,7 +50,7 @@ $(document).ready(function() {
         $(this).children('textarea').val(localStorage.getItem(id))
     })
 
-    // this displays current day in header of webpage
+    // display current day on page
     $("#currentDay").text(moment().format("dddd, MMMM Do"));
 
 });
