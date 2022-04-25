@@ -18,7 +18,7 @@ $(document).ready(function() {
         var currentHour = moment().hours()
 
         //convert the time-block from "hr 9" to "9" & put that into a var(blockHour)
-        $('.time-block').each(function () {
+        $('.time-block').each( function(){
             var blockHour = parseInt($(this).attr('id').split('hour-')[1])
 
             //if stmt (blockHour < currentHour) add .past class to the text area of time-block
@@ -51,6 +51,6 @@ $(document).ready(function() {
     })
 
     // this displays current day in header of webpage
-    $("#currentday").text(moment().format("dddd, MMMM Do"));
+    $("#currentDay").text(moment().format("dddd, MMMM Do"));
 
 });
