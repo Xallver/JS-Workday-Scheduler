@@ -43,3 +43,6 @@ The following animation demonstrates the application functionality:
 
 ## Repository Link
 https://github.com/Xallver/JS-Workday-Scheduler
+
+## Website Link
+https://xallver.github.io/JS-Workday-Scheduler/
