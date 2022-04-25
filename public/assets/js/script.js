@@ -41,6 +41,17 @@ $(document).ready(function () {
     }
     hourTracker();
 
+    //Updates hourTracker() every second
+    setInterval(hourTracker,1000);
+
+    //loads saved data from localStorage
+    $('.time-block').each( function(){
+        var id = $(this).attr('id')
+        $(this).children('textarea').val(localStorage.getItem(id))
+    });
+
+    
+
 
 
 })
